@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV Placeholder</title>
+  <style>
+    :root {
+      --bg: #f7f4fb;
+      --card: #ffffff;
+      --ink: #2b1e3a;
+      --muted: #6d6077;
+      --line: #dcd2e5;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.55 "DM Sans", system-ui, sans-serif;
+      padding: 24px;
+    }
+
+    .card {
+      width: min(100%, 720px);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 28px;
+      box-shadow: 8px 8px 0 rgba(67, 36, 96, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      margin: 0 0 12px;
+      color: var(--muted);
+    }
+
+    code {
+      background: #f1ecf8;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 2px 6px;
+      color: var(--ink);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>CV coming soon</h1>
+    <p>This is a placeholder while the final CV PDF is being prepared.</p>
+    <p>When ready, replace this link target with your real file, for example:</p>
+    <p><code>assets/docs/Fanamby-Randri-CV.pdf</code></p>
+  </main>
+</body>
+</html>
